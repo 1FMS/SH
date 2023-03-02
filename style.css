@@ -4,12 +4,13 @@ body{
     background-color: #14142B;
     font-family: 'Montserrat';
     color: #4DFFFF;
+    margin: 40px;
 
 }
 
 header{
     margin-top: 0;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-right: 100px;
     display: flex;
     justify-content: space-between;
@@ -43,9 +44,9 @@ nav{
 #container1{
     
     display: flex;
-    margin-left: 40px;
+    
     margin-top: 100px;
-    padding: 20px;
+    
     align-items:center;
     
 }
@@ -71,8 +72,8 @@ nav{
 #botao{
     
     display: flex;
-    margin-left: 40px;
-    padding: 20px;
+    
+    
     
 }
 
@@ -88,4 +89,58 @@ nav{
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+}
+
+#bg{
+    width: 1440px;
+    height: 477px;
+    margin: 20px;
+    display:flex;
+
+}
+
+h2{
+
+    width: 608px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+
+
+}
+
+#left{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#texto-sobre{
+
+    width: 495px;
+    height: 300px;
+
+}
+
+#img-right{
+
+    margin-top: 0px;
+    margin-top: 115px;
+    margin-left: 180px;
+}
+
+#img-team{
+
+    
+    padding-top: 0px;
+    border-radius: 20px;
+    width: 606px;
+    height: 300px;
+
 }
